@@ -1,0 +1,39 @@
+{
+  "id": "943a5bfe-378d-4aec-bcbe-ab1c0bc8dbc2",
+  "version": "2.0",
+  "name": "Automation testing",
+  "url": "https://demo.opencart.com/",
+  "tests": [{
+    "id": "9ef13286-2a45-4070-a810-26965b713d76",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "92bafdbc-edf7-47b1-ac20-6e5ff8dd4651",
+    "name": "Test 1",
+    "commands": [{
+      "id": "6756a9eb-925a-4090-8188-e95056c4903d",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.opencart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1534303-6ef9-4970-8557-a78f66de70ea",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0779118e-8ea9-4bb4-a078-64314dabecf9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9ef13286-2a45-4070-a810-26965b713d76"]
+  }],
+  "urls": ["https://demo.opencart.com/"],
+  "plugins": []
+}
